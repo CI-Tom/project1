@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
 
+/* Global */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,4 +11,11 @@
 body {
     font-family: Lora, sans-serif;
     font-weight: 400;
+    color: #3a3a3a;
+}
+
+/* Header & Navigation */
+
+.global-header {
+    color: #800000;
 }
