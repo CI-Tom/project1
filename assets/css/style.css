@@ -1,44 +1,126 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
 
-/* Global */
+/* fonts */
+/* font-family: 'Lora', serif;
+   font-family: 'Roboto', sans-serif; */
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    border: none;
+    border: 0;
 }
 
 body {
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    color: #3f3f3f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: rgb(0, 69, 141);
 }
+
 
 /* Header */
 
-header {
+.flex-container {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-direction: row;
+    font-family: 'Lora', sans-serif;
+    font-weight: 400;
+    height: fit-content;
+    color: white;
     background-color: rgb(100, 0, 52);
 }
 
-#club-logo {
-    align-self: flex-start;
+.logo img {
     display: flex;
-    width: 100px;
-    margin: 20px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 20px 30px;
+    border-radius: 50px;
 }
 
-h1 {
+.heading {
     display: flex;
-    font-family: Lora, sans-serif;
-    font-weight: 400;
-    font-size: 48px;
+    align-items: center;
+    margin-right: auto;
+}
+
+.heading a {
     color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: 400;
 }
 
-#menu {
-    float: right;
-    margin-right: 30px;
+div.navigation {
+    display: flex;
+    align-items: flex-end;
+}
+
+.navigation ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 0 30px 20px 0;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* Hero Image */
+
+#hero-outer {
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#hero-image {
+    height: 850px;
+    width: 100%;
+    background: url('../images/Summerville_pitch.png') no-repeat center center;
+
+    /* image zoom effect */
+    animation-name: hero-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1.1);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+#cover-text {
+    color: rgb(100, 0, 52);
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+
+    width: 360px;
+    height: 210px;
+
+    padding: 30px;
+
+    background-color: rgba(255, 255, 255, 0.6);
+
+    bottom: 50px;
+    right: 200px;
+
+    position: absolute;
 }
