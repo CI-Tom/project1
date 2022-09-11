@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
 
-/* fonts */
-/* font-family: 'Lora', serif;
-   font-family: 'Roboto', sans-serif; */
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -53,6 +49,8 @@ body {
     font-weight: 400;
 }
 
+/* Navigation */
+
 div.navigation {
     display: flex;
     align-items: flex-end;
@@ -74,8 +72,18 @@ li a {
     text-decoration: none;
 }
 
+li a:hover {
+    color: rgb(103, 182, 250);
+    border-bottom: 2px solid;
+}
 
-/* Hero Image */
+.active{
+    color: rgb(103, 182, 250);
+    border-bottom: 2px solid;
+}
+
+
+/* Home Hero Image */
 
 #hero-outer {
     height: 650px;
@@ -110,17 +118,90 @@ li a {
     color: rgb(100, 0, 52);
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
+    text-align: center;
     letter-spacing: 2px;
 
-    width: 360px;
-    height: 210px;
+    width: 410px;
+    height: 360px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
 
     padding: 30px;
 
     background-color: rgba(255, 255, 255, 0.6);
 
-    bottom: 50px;
-    right: 200px;
+    right: 230px;
+    bottom: 100px;
 
     position: absolute;
+}
+
+#cover-text h1 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.line2 {
+    text-align: justify;
+}
+
+
+/* Form Background Image */
+
+#form-outer {
+    height: 850px;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+#form-image {
+    height: 650px;
+    width: 100%;
+    background: url('../images/portland_park.png') no-repeat top center;
+}
+
+@keyframes hero-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#form-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 2px;
+
+    width: 450px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+
+    padding: 30px;
+
+    background-color: rgba(100, 0, 52, 0.75);
+
+    right: 35px;
+    bottom: 75px;
+
+    position: absolute;
+
+}
+
+#form-text h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.line2 {
+    text-align: justify;
 }
