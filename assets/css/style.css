@@ -23,6 +23,7 @@ body {
     flex-direction: row;
     font-family: 'Lora', sans-serif;
     font-weight: 400;
+    letter-spacing: 2px;
     height: fit-content;
     color: white;
     background-color: rgb(100, 0, 52);
@@ -192,4 +193,15 @@ div h3 {
 
 .line2 {
     text-align: justify;
+}
+
+
+/* Welcome Section */
+
+.welcome {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 400;
+    margin-top: 30px;
+    letter-spacing: 2px;
 }
