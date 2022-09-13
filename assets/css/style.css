@@ -146,10 +146,10 @@ div h3 {
 }
 
 
-/* Form Background Image */
+/* Form */
 
 #form-outer {
-    height: 850px;
+    height: 650px;
     width: 100%;
     overflow: hidden;
 
@@ -159,7 +159,7 @@ div h3 {
 #form-image {
     height: 650px;
     width: 100%;
-    background: url('../images/portland_park.png') no-repeat top center;
+    background: url('../images/Summerville_clubhouse.png') no-repeat top center;
 }
 
 #form-text {
@@ -178,8 +178,8 @@ div h3 {
 
     background-color: rgba(100, 0, 52, 0.75);
 
-    right: 35px;
-    bottom: 75px;
+    right: 260px;
+    bottom: 40px;
 
     position: absolute;
 
