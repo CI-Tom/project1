@@ -97,7 +97,7 @@ li a:hover {
 #hero-image {
     height: 850px;
     width: 100%;
-    background: url('../images/Summerville_pitch.png') no-repeat center center;
+    background: url('../images/summerville_pitch.png') no-repeat center center;
 
     /* image zoom effect */
     animation-name: hero-zoom;
@@ -160,7 +160,7 @@ div h3 {
 #form-image {
     height: 850px;
     width: 100%;
-    background: url('../images/Summerville_clubhouse.png') no-repeat top center;
+    background: url('../images/summerville_clubhouse.png') no-repeat top center;
 }
 
 #form-text {
