@@ -226,11 +226,6 @@ div p {
     letter-spacing: 1px;
 }
 
-#about {
-    padding-bottom: 30px;
-    overflow: none;
-}
-
 #about-website div img {
     padding: 0 20px;
 }
@@ -240,7 +235,7 @@ div p {
 
 #location-wrapper {
     height: 650px;
-    margin-bottom: 30px;
+    margin-bottom: auto;
 }
 
 #map {
