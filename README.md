@@ -1,8 +1,11 @@
-# Love Running
+# Summerville Rovers F.C.
 
-In this section, you will include one or two paragraphs providing an overview of your project. Essentially, this part is your sales pitch. At this stage, you should have a name for your project so use it! Don’t introduce the project as a Portfolio project for the diploma. In this section, describe what the project hopes to accomplish, who it is intended to target and how it will be useful to the target audience. 
+The aim of this project was to design a website for a local soccer club, Summerville Rovers F.C.
 
-For example; Love Running is a site that hopes to help keep people motivated to meet up for runs on a regular basis in Dublin, Ireland. The site will be targeted toward runners who are looking for a way to socialise and keep themselves fit. Love Running will be useful for runners to see exactly when and where they should be to join the running club. 
+The club want a website to provide exposure for the club to help it grow and attract new members. The club want to provide a place for members and/or non-members to find information about the club and to be able to use the site for booking events or training slots on the pitches. As well as using the site for bookings, they also want to provide information on current teams, fixtures/results and league positions. Currently, players and members rely on external sources for information on league positions, fixtures and results. The club also wanted a gallery page showing the history of the club through old photos of the ground and teams.
+
+The club would like, in the future, to implement their own online store to sell official club sports clothing and other items related to the club such as memorabilia and training equipment etc.
+Currently this website is linked to an external store for this purpose.
 
 ![Responsice Mockup](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_mockup.png?raw=true)
 
