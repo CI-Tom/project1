@@ -7,7 +7,7 @@ The club want a website to provide exposure for the club to help it grow and att
 The club would like, in the future, to implement their own online store to sell official club sports clothing and other items related to the club such as memorabilia and training equipment etc.
 Currently this website is linked to an external store for this purpose.
 
-![Responsice Mockup](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_mockup.png?raw=true)
+![Responsive Mockup](https://github.com/lucyrush/readme-love-running/blob/master/media/love_running_mockup.png?raw=true)
 
 ## Features 
 
@@ -34,14 +34,14 @@ In this section, you should go over the different parts of your project, and des
   - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
   - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png?raw=true)
+![Welcome](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png?raw=true)
 
 - __Meetup Times section__
 
   - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
   - This section will be updated as these times change to keep the user up to date. 
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png?raw=true)
+![Google Maps Location & Directions](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png?raw=true)
 
 - __The Footer__ 
 
@@ -55,13 +55,21 @@ In this section, you should go over the different parts of your project, and des
   - The gallery will provide the user with supporting images to see what the meet ups look like. 
   - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png?raw=true)
+![Teams Info & Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png?raw=true)
+
+- __The Store__
+
+  - This page will allow the user to purchase official club sports gear from the club's current external supplier directly. The link takes the user to the supplier's own site where they can select items and specify sizes. 
+
+![Store](assets/images/store-items.png)
+
+In the future the club will sell items directly from this site's own online store.
 
 - __The Sign Up Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png?raw=true)
+![Join](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png?raw=true)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
