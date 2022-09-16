@@ -147,6 +147,54 @@ div h3 {
 }
 
 
+/* Welcome Section */
+
+#about-website {
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.welcome {
+    font-family: 'Lora', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    margin: 30px 0;
+    letter-spacing: 2px;
+}
+
+div p {
+    display: flex;
+    margin-top: auto;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    margin: 30px;
+    letter-spacing: 1px;
+}
+
+#about-website div img {
+    padding: 0 20px;
+}
+
+
+/* Map */
+
+#location-wrapper {
+    height: 650px;
+    margin-bottom: auto;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
+
 /* Form */
 
 #form-outer {
@@ -194,52 +242,4 @@ div h3 {
 
 .line2 {
     text-align: justify;
-}
-
-
-/* Welcome Section */
-
-#about-website {
-    height: 650px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-right: auto;
-    margin-bottom: 30px;
-}
-
-.welcome {
-    font-family: 'Lora', sans-serif;
-    font-size: 48px;
-    font-weight: 600;
-    margin: 30px 0;
-    letter-spacing: 2px;
-}
-
-div p {
-    display: flex;
-    margin-top: auto;
-    text-align: center;
-    font-size: 28px;
-    font-weight: 400;
-    margin: 30px;
-    letter-spacing: 1px;
-}
-
-#about-website div img {
-    padding: 0 20px;
-}
-
-
-/* Map */
-
-#location-wrapper {
-    height: 650px;
-    margin-bottom: auto;
-}
-
-#map {
-    height: 100%;
-    width: 100%;
-    border: none;
 }
